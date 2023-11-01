@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 24px 8px;
+}
+
+#main {
+    width: 100%;
+    min-height: 100vh;
+    padding: 36px 12px 24px;
+    background-color: #D3D3D3;
+    border-radius: 8px;
+}
+
+h1, p, h2, h3 {
+    text-align: center;
+}
+
+#title {
+    font-size: 2.25rem;
+}
+
+#img-div {
+    text-align: center;
+    margin: 0 0 34px;
+    padding: 24px 20% 14px;
+    background-color: white;
+}
+
+#image {
+    display: block;
+    height: auto;
+    max-width: 100%;
+    margin-bottom: 14px;
+}
+
+h2 {
+    margin-bottom: 34px;
+}
+
+#tribute-info {
+    width: 45%;
+    margin: 0 auto;
+}
+
+#tribute-info li {
+    margin-bottom: 16px;
+}
+
+#quote {
+    width: 45%;
+    margin: 36px auto 36px;
+}
+
+#quote p, #quote cite {
+    text-align: justify;
+    font-style: italic;
+}
